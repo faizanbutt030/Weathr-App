@@ -26,7 +26,7 @@ const Search = ({navigation}) => {
         {
           method: 'GET',
           headers: {
-            'X-RapidAPI-Key': '58c4fbaf6dmshb5a9dfb1db79d31p1e1449jsna4d56ac55d6e',
+            'X-RapidAPI-Key': '',
             'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com',
           },
         },
@@ -78,7 +78,7 @@ const Search = ({navigation}) => {
   //               method: 'GET',
   //               headers: {
   //                 'X-RapidAPI-Key':
-  //                   '58c4fbaf6dmshb5a9dfb1db79d31p1e1449jsna4d56ac55d6e',
+  //                   '',
   //                 'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com',
   //               },
   //             },
