@@ -54,7 +54,7 @@ const Home = ({navigation}) => {
 
   const fetchWeatherData = async () => {
     try {
-      const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=15897a3f0dcbc64e2fe5c9a8934667ae`;
+      const apiUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${latitude}&lon=${longitude}&appid=`;
       const response = await fetch(apiUrl);
 
       if (response.ok) {
